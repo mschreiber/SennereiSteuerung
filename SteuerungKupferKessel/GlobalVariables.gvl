@@ -1,0 +1,19 @@
+VAR_GLOBAL
+
+	valueValue	: REAL;
+
+	currentTemperature	: DINT := 0;
+
+	startProcess	: INT := 0;
+
+	desiredTemperatur	: REAL := 0;
+
+	alarmOff	: BOOL := FALSE;
+
+	alarm	: BOOL := FALSE;
+	
+	continueProcess: BOOL := FALSE;
+	
+	cancelProcess: BOOL := FALSE;
+	
+END_VAR
